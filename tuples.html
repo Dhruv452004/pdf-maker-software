@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Prism.js CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    
+    <!-- Prism.js JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <title>Tuples aur uske methods</title>
+
+</head>
+
+<body>
+    <!-- Tuples kya hote hain? -->
+    <div class="note-section">
+        <h2>Tuples kya hote hain?</h2>
+        <p>Tuples Python mein ek immutable (unchangeable) sequence type hote hain, jismein multiple elements store kiye
+            ja sakte hain. Tuple ka size fixed hota hai, aur ek baar tuple banane ke baad usme koi changes nahi kiye ja
+            sakte, jaise elements ko add ya remove nahi kar sakte.</p>
+        <li>Tuples ko parentheses () ke andar define kiya jaata hai, jaise:</li>
+        <pre><code class="language-javascript">my_tuple = (1, 2, 3, 4)</code></pre>
+    </div>
+
+    <!-- Tuple ke kuch key points -->
+    <div class="note-section">
+        <h3>Tuple ke kuch key points:</h3>
+        <ol>
+            <li>Immutable hote hain, jo ek baar ban jaane ke baad change nahi kiye ja sakte.</li>
+            <li>Multiple data types ko ek saath store kar sakte hain.</li>
+            <li>Indexing aur slicing ki support milti hai, jaise lists mein hoti hai.</li>
+            <li>Tuples ko iterate kiya ja sakta hai.</li>
+            <li>Empty tuples bhi banaye ja sakte hain.</li>
+        </ol>
+
+        <li>Example</li>
+        <pre><code class="language-javascript"># Tuple with different data types
+my_tuple = (1, "apple", 3.14)
+
+# Index ke through first element ko access karna
+print(my_tuple[0])  // Output: 1
+
+# Tuple ko slice karna, yahan 1st index se end tak elements print ho rahe hain
+print(my_tuple[1:])  // Output: ("apple", 3.14)</code></pre>
+    </div>
+
+    <!-- Tuple ke methods jo sabse jada use hote h -->
+    <div class="note-section">
+        <h3>Tuple ke methods jo sabse jada use hote h</h3>
+
+        <!-- count() -->
+        <div class="mt-div">
+            <li>1 .count(): Yeh method tuple mein kisi element ki occurrence (count) ko return karta hai.</li>
+            <pre><code class="language-javascript">my_tuple = (1, 2, 2, 3)
+print(my_tuple.count(2))  // Output: 2</code></pre>
+        </div>
+
+        <!-- index() -->
+        <div class="mt-div">
+            <li>2 .index(): Yeh method tuple mein kisi element ka first occurrence ka index return karta hai.</li>
+            <pre><code class="language-javascript">my_tuple = (10, 20, 30, 40)
+print(my_tuple.index(30))  // Output: 2</code></pre>
+        </div>
+
+        <!-- len() -->
+        <div class="mt-div">
+            <li>3 len(): Yeh method tuple ke elements ki total count ko return karta hai.</li>
+            <pre><code class="language-javascript">my_tuple = (1, 2, 3)
+print(len(my_tuple))  // Output: 3</code></pre>
+        </div>
+
+        <!-- min() -->
+        <div class="mt-div">
+            <li>4 min(): Yeh method tuple ke elements mein se minimum value return karta hai (agar all elements
+                comparable hain).</li>
+            <pre><code class="language-javascript">my_tuple = (5, 1, 8)
+print(min(my_tuple))  // Output: 1</code></pre>
+        </div>
+
+        <!-- max() -->
+        <div class="mt-div">
+            <li>5 max(): Yeh method tuple ke elements mein se maximum value return karta hai (agar all elements
+                comparable hain).</li>
+            <pre><code class="language-javascript">my_tuple = (5, 1, 8)
+print(max(my_tuple))  // Output: 8</code></pre>
+        </div>
+    </div>
+</body>
+
+</html>

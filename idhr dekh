@@ -1,0 +1,14 @@
+is folder mein do files h 
+
+* pdf.js jis tu html ka content dal kar isko pdf mein convert kr skta h
+
+* style.css  isme css likhi h mene jo notes jese pdf bnane mein kaam ayga html ko dekh kar bilkul vese hi krio
+
+name = "loha"
+print(name)
+def name(a, b):
+    return a + b
+reuslt = name(2, 2)
+print(result)
+ 
+ * mein ek html file bhi add kr rha hu agr tuje smj na aye tho chat gpt ko html ka code ya css ka code dedio vo tuje explain kr dega

@@ -1,0 +1,66 @@
+body {
+    background-color: #111827;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 10rem;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    color: red;
+}
+
+pre[class*="language-"],
+code[class*="language-"] {
+    white-space: pre-wrap !important;
+    /* Wrap text */
+    word-wrap: break-word !important;
+    /* Break long words */
+    overflow-x: auto !important;
+    /* Enable horizontal scroll only if needed */
+    max-width: 100% !important;
+    /* Prevent from exceeding container */
+    display: block !important;
+    /* Ensure proper block display */
+}
+
+
+
+/* pre {
+    background-color: #272822;
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+    border-radius: 10px 10px;
+    margin-left: 5rem;
+} */
+
+.note-section {
+    margin-bottom: 30px;
+    width: 50rem;
+}
+
+.mt-div {
+    margin-top: 2rem;
+}
+
+
+/* for table */
+
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
